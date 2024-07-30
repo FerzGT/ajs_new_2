@@ -1,3 +1,7 @@
+const types = [
+    'Bowman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie',
+];
+
 export default class Character {
     constructor(name, type, health, level, attack, defence) {
         if (name.length < 2 || name.length > 10) {
