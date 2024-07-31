@@ -1,3 +1,7 @@
-export function httpGet() {
-  return '{}';
+export function httpGet(url) {
+  throw new Error(url);
+}
+
+export function httpPost(url) {
+  throw new Error(url);
 }
